@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>client-shadow.png</file>
+    </qresource>
+</RCC>
