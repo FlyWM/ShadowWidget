@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    MakePixmapWidget w;
+    WinAPIShadowWidget w;
     w.show();
 
     return a.exec();

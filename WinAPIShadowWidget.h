@@ -21,7 +21,7 @@ class WinAPIShadowWidget : public QWidget
 public:
     explicit WinAPIShadowWidget(QWidget *parent = nullptr);
 
-signals:
+    bool nativeEvent(const QByteArray &eventType, void *message, long *result);
 
 public slots:
 };
